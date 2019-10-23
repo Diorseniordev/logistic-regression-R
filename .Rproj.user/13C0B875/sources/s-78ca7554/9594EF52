@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1564805097182.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9594EF52",
+    "lastKnownWriteTime" : 1564884968,
+    "last_content_update" : 1564884968678,
+    "path" : "/cloud/project/telecom-anal.R",
+    "project_path" : "telecom-anal.R",
+    "properties" : {
+        "cursorPosition" : "32,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

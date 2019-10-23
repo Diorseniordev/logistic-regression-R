@@ -1,0 +1,9 @@
+{
+    "path" : "/cloud/project/logistic-regression",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

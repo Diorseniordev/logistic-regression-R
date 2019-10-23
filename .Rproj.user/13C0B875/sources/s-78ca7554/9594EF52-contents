@@ -1,0 +1,32 @@
+
+#----------- import data ---------------
+# # install readxl package
+# install.packages("readxl")
+# load readxl package
+library("readxl")
+
+# read data
+my_data <- read_excel("R Data.xlsx")
+
+#----------------- EDA -----------------
+# # install funModeling package
+# install.packages("funModeling")
+# load libraries
+library(funModeling)
+library(tibble)
+
+# show the underlying data
+glimpse(my_data)
+# convert SeniorCitizen into categorical variable
+my_data$SeniorCitizen <- as.factor(my_data$SeniorCitizen)
+# shows the metrics about data types, zeros, infinite numbers, and missing values
+df_status(my_data)
+
+# analyzing categorical variables
+category_data <- my_data[c(1:5, 7:16, 19)]
+freq(category_data)
+
+# analyzing numerical variables
+profiling_num(my_data)
+plot_num(my_data)
+describe(my_data)
